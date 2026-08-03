@@ -146,8 +146,8 @@ const soraCommand = require('./commands/sora');
 // Global settings
 global.packname = settings.packname;
 global.author = settings.author;
-global.channelLink = "https://www.youtube.com/@WeedTech-e1m";
-global.ytch = "WeedTech";
+global.channelLink = "https://www.youtube.com/@Mayor_Edits";
+global.ytch = "Mayor Promise";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
@@ -155,8 +155,8 @@ const channelInfo = {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363407561123100@newsletter',
-            newsletterName: 'LASER MD',
+            newsletterJid: '120363209967630680@g.us',
+            newsletterName: 'MAYOR-BOT',
             serverMessageId: -1
         }
     }
@@ -197,7 +197,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
 
             if (buttonId === 'channel') {
                 await sock.sendMessage(chatId, {
-                    text: '📢 *Join our Channel:*\nhttps://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A'
+                    text: '📢 *Join our Channel:*\nhttps://whatsapp.com/channel/0029VbBF3niFi8xfqTLZOg1j'
                 }, { quoted: message });
                 return;
             } else if (buttonId === 'owner') {
@@ -206,7 +206,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 return;
             } else if (buttonId === 'support') {
                 await sock.sendMessage(chatId, {
-                    text: `🔗 *Support*\n\nhttps://chat.whatsapp.com/GA4WrOFythU6g3BFVubYM7?mode=wwt`
+                    text: `🔗 *Support*\n\n+2349164717432`
                 }, { quoted: message });
                 return;
             }
