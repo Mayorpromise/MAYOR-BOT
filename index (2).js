@@ -70,10 +70,10 @@ setInterval(() => {
     }
 }, 30_000) // check every 30 seconds
 
-let phoneNumber = "50939032060"
+let phoneNumber = "2349072867719"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "LASER MD"
+global.botname = "MAYOR-BOT"
 global.themeemoji = "•"
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
@@ -160,8 +160,8 @@ async function startXeonBotInc() {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363407561123100@newsletter',
-                                newsletterName: 'LASER-MD',
+                                newsletterJid: '120363209967630680@g.us',
+                                newsletterName: 'MAYOR-BOT',
                                 serverMessageId: -1
                             }
                         }
@@ -269,8 +269,8 @@ async function startXeonBotInc() {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363407561123100@newsletter',
-                            newsletterName: 'LASER-MD',
+                            newsletterJid: '120363209967630680@g.us',
+                            newsletterName: 'MAYOR-BOT',
                             serverMessageId: -1
                         }
                     }
@@ -280,12 +280,12 @@ async function startXeonBotInc() {
             }
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'LASER MD'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'MAYOR-BOT'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL:WeedTech`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: Weedtech333`))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL:Mayor_Edits`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: Mayorpromise`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: DevWeed`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: Mayor`))
             console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
             console.log(chalk.blue(`Bot Version: ${settings.version}`))
         }
