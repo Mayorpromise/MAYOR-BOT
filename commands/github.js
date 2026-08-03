@@ -6,11 +6,11 @@ const path = require('path');
 
 async function githubCommand(sock, chatId, message) {
   try {
-    const res = await fetch('https://api.github.com/repos/TECHGOAT333/LASER-MD');
+    const res = await fetch('https://api.github.com/repos/Mayorpromise/MAYOR-BOT');
     if (!res.ok) throw new Error('Error fetching repository data');
     const json = await res.json();
 
-    let txt = `*☆  LASER-MD  ☆*\n\n`;
+    let txt = `*☆  MAYOR-BOT  ☆*\n\n`;
     txt += `✩  *Name* : ${json.name}\n`;
     txt += `✩  *Watchers* : ${json.watchers_count}\n`;
     txt += `✩  *Size* : ${(json.size / 1024).toFixed(2)} MB\n`;
