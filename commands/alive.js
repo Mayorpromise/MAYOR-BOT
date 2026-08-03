@@ -1,7 +1,7 @@
 const settings = require("../settings");
 async function aliveCommand(sock, chatId, message) {
     try {
-        const message1 = `*🤖 LASER MD is Active!*\n\n` +
+        const message1 = `*🤖 MAYOR-BOT is Active!*\n\n` +
                        `*Version:* ${settings.version}\n` +
                        `*Status:* Online\n` +
                        `*Mode:* Public\n\n` +
@@ -19,7 +19,7 @@ async function aliveCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363407561123100@newsletter',
-                    newsletterName: 'LASER MD',
+                    newsletterName: 'MAYOR-BOT',
                     serverMessageId: -1
                 }
             }
